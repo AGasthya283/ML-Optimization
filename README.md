@@ -26,33 +26,38 @@ All explanations are self-contained and progressively build intuition for the un
 ```
 optimizers-ml/
 │
-├── 01_basics/                                  # Foundational Optimization Methods
-│   ├── gradient_descent.ipynb                  # Standard Gradient Descent (GD) and Stochastic Gradient Descent (SGD).
-│   ├── momentum_and_nesterov.ipynb             # Momentum-based acceleration: Classical Momentum and
-|                                                 Nesterov Accelerated Gradient (NAG).
-│   ├── adaptive_methods_adagrad_adam.ipynb     # Adaptive learning rate methods: AdaGrad, RMSprop, and Adam.
+├── 01_basics/                                     # 🧩 Foundational Optimization Methods
+│   ├── gradient_descent.ipynb                     # Standard Gradient Descent (GD) and Stochastic Gradient Descent (SGD).
+│   ├── momentum_and_nesterov.ipynb                # Momentum-based acceleration: Classical Momentum and Nesterov Accelerated Gradient (NAG).
+│   ├── adaptive_methods_adagrad_adam.ipynb        # Adaptive learning rate methods: AdaGrad, RMSprop, and Adam.
 │
-├── 02_sota_optimizers/                         # State-of-the-Art (SOTA) Optimizers
-│   ├── adamw_and_decoupled_weight_decay.ipynb  # AdamW and the principle of decoupled weight decay.
-│   ├── ranger_lookahead_radam.ipynb            # RAdam (Rectified Adam), Lookahead, and Ranger.
-│   ├── lion_and_adamx.ipynb                    # Modern, high-performance optimizers like Lion and AdamX.
-│   
-├── 03_curvature_aware/                     # Second-Order and Curvature-Aware Methods
-│   ├── natural_gradient_descent.ipynb      # Theory and implementation of Natural Gradient Descent (NGD).
-│   ├── kfac_and_shampoo.ipynb              # Scalable curvature methods: K-FAC and Shampoo.
-│   ├── adaptive_curvature_methods.ipynb    # Study of other methods leveraging curvature information.
+├── 02_sota_optimizers/                            # 🚀 State-of-the-Art (SOTA) Optimizers
+│   ├── adamw_and_decoupled_weight_decay.ipynb     # AdamW and the principle of decoupled weight decay.
+│   ├── ranger_lookahead_radam.ipynb               # RAdam (Rectified Adam), Lookahead, and Ranger.
+│   ├── lion_and_adamx.ipynb                       # Modern, high-performance optimizers like Lion and AdamX.
 │
-├── 04_visualizations/                      # Tools and Analysis for Optimization Landscapes
-│   ├── optimization_landscapes.ipynb       # Generating 2D and 3D optimization loss landscapes.
-│   ├── loss_surface_geometry.ipynb         # Analysis of loss surface geometry (e.g., Hessian eigenvalues).
-│   ├── convergence_animations.ipynb        # Generating animated visualizations of optimizer convergence paths.
+├── 03_curvature_aware_optimizers-1/               # 🔷 Curvature-Aware (Part I): Foundations of Second-Order Methods
+│   ├── natural_gradient_descent.ipynb             # Theory and implementation of Natural Gradient Descent (NGD).
+│   ├── kfac_from_scratch.ipynb                    # Scalable curvature methods: Kronecker-Factored Approximate Curvature (K-FAC).
+│   ├── riemannian_optimization.ipynb              # Optimization on manifolds: geodesic vs straight-line movement.
 │
-├── assets/                                 # Supporting media for notebooks
-│   ├── figures/                            # Static images and plots.
-│   ├── gifs/                               # Animated convergence visualizations.
+├── 04_curvature_aware_optimizers-2/               # 🔶 Curvature-Aware (Part II): Advanced and Practical Methods
+│   ├── newton_and_levenberg_marquardt.ipynb       # Second-order curvature: Newton’s method, trust regions, and damping (Levenberg–Marquardt).
+│   ├── quasi_newton_bfgs.ipynb                    # Quasi-Newton methods: BFGS and L-BFGS curvature approximations.
+│   ├── ekfac_and_scaled_damping.ipynb             # Eigenvalue-Corrected K-FAC and improved damping techniques.
+│   ├── hessian_spectrum_visualization.ipynb       # Hessian spectrum visualization: curvature, flat minima, and generalization.
 │
-├── requirements.txt                      # List of Python dependencies.
-└── README.md                             # The main project description file.
+├── 05_visualizations/                             # 🎨 Tools and Analysis for Optimization Landscapes
+│   ├── optimization_landscapes.ipynb              # 2D and 3D loss landscape generation.
+│   ├── loss_surface_geometry.ipynb                # Analyzing curvature: Hessian eigenvalues and condition numbers.
+│   ├── convergence_animations.ipynb               # Animated visualizations of optimizer convergence trajectories.
+│
+├── assets/                                        # 🖼 Supporting media for notebooks
+│   ├── figures/                                   # Static images and diagrams used in notebooks.
+│   ├── gifs/                                      # Animated convergence visualizations and geodesic comparisons.
+│
+├── requirements.txt                               # 📦 List of Python dependencies (NumPy, Matplotlib, ipywidgets, etc.)
+└── README.md                                      # 🧾 Main project overview and structure explanation.
 ```
 
 ---
