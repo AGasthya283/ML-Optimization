@@ -68,7 +68,7 @@ optimizers-ml/
 |--------|--------|-------------|
 | **01. Gradient-Based Foundations** | Understanding how optimization connects calculus, linear algebra, and geometry. | Gradient Descent, Momentum, Nesterov Accelerated Gradient |
 | **02. State-of-the-Art Optimizers** | Modern optimizers that dominate deep learning pipelines. | Adam, AdamW, RAdam, Lookahead, LION |
-| **03. Curvature-Aware Methods** | Second-order and quasi-second-order optimizers using curvature information. | Natural Gradient, K-FAC, Shampoo, AdaHessian |
+| **03. Curvature-Aware Methods** | Second-order and quasi-second-order optimizers using curvature information. | Natural Gradient, K-FAC, Riemannian Optimization, Newton / Levenberg–Marquardt, BFGS / L-BFGS |
 | **04. Visualization & Geometry** | Visual intuition of loss surfaces and optimizer dynamics. | 2D/3D plots, contour visualizations, optimization path animations |
 
 ---
