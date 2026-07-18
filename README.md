@@ -189,7 +189,7 @@ Submit a pull request with a clear description
 
 Agasthya
 
-MLOps Lead — building and maintaining the production ML systems these notebooks explore the theory behind.
+ML Engineer — building and maintaining the production ML systems these notebooks explore the theory behind.
 
 ---
 
